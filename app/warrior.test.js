@@ -7,7 +7,7 @@ describe("Given a Characters class", () => {
         "Daenerys",
         "Targaryen",
         13,
-        "alive",
+        "true",
         "sword",
         7
       );
@@ -15,7 +15,7 @@ describe("Given a Characters class", () => {
       expect(warrior).toHaveProperty("name", "Daenerys");
       expect(warrior).toHaveProperty("family", "Targaryen");
       expect(warrior).toHaveProperty("age", 13);
-      expect(warrior).toHaveProperty("status", "alive");
+      expect(warrior).toHaveProperty("status", "true");
       expect(warrior).toHaveProperty("weapon", "sword");
       expect(warrior).toHaveProperty("dexterity", 7);
     });

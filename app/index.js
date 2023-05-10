@@ -24,9 +24,9 @@ console.log(myCharacter1.tvShow);
 const talk = () => {
   const messages = [];
   messages.push(
-    myCharacter1.saySentence(),
-    myCharacter2.saySentence(),
-    myCharacter3.saySentence()
+    myCharacter1.characterStatement(),
+    myCharacter2.characterStatement(),
+    myCharacter3.characterStatement()
   );
   return messages;
 };
@@ -34,6 +34,6 @@ const talk = () => {
 talk();
 
 console.log(talk());
-myCharacter2.endLife();
+myCharacter2.characterDeath();
 
 console.log(myCharacter2, myCharacter2);

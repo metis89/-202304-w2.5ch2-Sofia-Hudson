@@ -7,14 +7,14 @@ describe("Given a Characters class", () => {
         "Joffrey",
         "Baratheon",
         14,
-        "alife",
+        "true",
         "king",
         "Game of Thrones"
       );
       expect(characters).toHaveProperty("name", "Joffrey");
       expect(characters).toHaveProperty("family", "Baratheon");
       expect(characters).toHaveProperty("age", 14);
-      expect(characters).toHaveProperty("status", "alife");
+      expect(characters).toHaveProperty("status", "true");
       expect(characters).toHaveProperty("category", "king");
       expect(characters).toHaveProperty("show", "Game of Thrones");
     });
